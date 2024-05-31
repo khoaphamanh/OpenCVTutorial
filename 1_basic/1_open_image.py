@@ -9,10 +9,12 @@ print("n:", n)
 print("k:", k)
 
 # display the picture
-cv2.imshow("Fenstername", I)
+fenster_name = "Fenstername"
+cv2.imshow(fenster_name, I)
 cv2.waitKey(0)
 
 # save the picture
-cv2.imwrite("newname.jpg", I)
+new_name = "newname.jpg"
+cv2.imwrite(new_name, I)
 
 # to quit the run, press f5/run
