@@ -3,7 +3,7 @@ import cv2
 
 KERNEL_SIZE = 20
 
-# Einlesen des Bildes
+# load image
 filepath = "text_%s.jpg"
 images = list()
 for i in [1, 2, 3]:
